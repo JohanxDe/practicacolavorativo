@@ -1,0 +1,41 @@
+.personalizar{
+    background-color: rgb(122, 122, 122);
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    background-color: white;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h1, h2, h3 {
+    color: #333;
+}
+
+#prueba{
+    text-align: center;
+}
+
+p {
+    line-height: 1.6;
+}
+ul {
+    padding-left: 20px;
+}
+
+.contacto{
+    background-color: yellowgreen;
+
+}
+
+footer{
+    text-align: center;
+}
