@@ -1,5 +1,6 @@
 .personalizar{
-    background-color: rgb(122, 122, 122);
+    /* background-color: rgb(122, 122, 122); */
+    background-image: url(../img/imagenfondo.jfif);
 }
 
 body {
@@ -24,6 +25,12 @@ h1, h2, h3 {
     text-align: center;
 }
 
+.imagenuno {
+    width: 150px;
+    height: 150px;
+    border: 2px solid;
+}
+
 p {
     line-height: 1.6;
 }
@@ -31,11 +38,26 @@ ul {
     padding-left: 20px;
 }
 
+.flex{
+    display: flex;
+    justify-content: space-around;
+}
+
+.eso li{
+    list-style: none;
+}
+
 .contacto{
-    background-color: yellowgreen;
+    background-color:rgb(182, 182, 182);
 
 }
 
 footer{
+    max-width: 400px;
+    margin: 10px auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: aliceblue;
     text-align: center;
 }
